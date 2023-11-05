@@ -1,0 +1,32 @@
+﻿using System.Threading.Tasks;
+using HerzenHelper.Models.Broker.Publishing.Subscriber.User;
+using HerzenHelper.EventService.Data.Interfaces;
+using MassTransit;
+
+namespace HerzenHelper.EventService.Broker.Consumers;
+
+public class UpdateUserBirthdayConsumer : IConsumer<IUpdateUserBirthdayPublish>
+{
+  private readonly IUserBirthdayRepository _userBirthdayRepository;
+
+  private async Task UpdateUserBirthdayAsync(IUpdateUserBirthdayPublish publish)
+  {
+    if (publish is null)
+    {
+      return;
+    }
+
+    await _userBirthdayRepository.UpdateUserBirthdayAsync(publish.UserId, publish.DateOfBirth);
+  }
+
+  public UpdateUserBirthdayConsumer(
+    IUserBirthdayRepository userBirthdayRepository)
+  {
+    _userBirthdayRepository = userBirthdayRepository;
+  }
+
+  public async Task Consume(ConsumeContext<IUpdateUserBirthdayPublish> context)
+  {
+    await UpdateUserBirthdayAsync(context.Message);
+  }
+}
