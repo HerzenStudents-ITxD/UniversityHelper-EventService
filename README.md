@@ -1,2 +1,2 @@
 # UniversityHelper-EventService
-Сервис проекта UniversityHelper для работы с событиями сообществ
+РЎРµСЂРІРёСЃ РїСЂРѕРµРєС‚Р° UniversityHelper РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ СЃРѕР±С‹С‚РёСЏРјРё
