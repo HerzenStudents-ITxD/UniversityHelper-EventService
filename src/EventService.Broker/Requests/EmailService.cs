@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.Core.BrokerSupport.Helpers;
-using HerzenHelper.Models.Broker.Requests.Email;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.Core.BrokerSupport.Helpers;
+using UniversityHelper.Models.Broker.Requests.Email;
 using MassTransit;
 
-namespace HerzenHelper.EventService.Broker.Requests;
+namespace UniversityHelper.EventService.Broker.Requests;
 
 public class EmailService : IEmailService
 {

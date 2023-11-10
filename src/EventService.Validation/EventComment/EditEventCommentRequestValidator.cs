@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
-using HerzenHelper.EventService.Validation.EventComment.Interfaces;
-using HerzenHelper.Core.Validators;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.EventService.Validation.EventComment.Interfaces;
+using UniversityHelper.Core.Validators;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 
-namespace HerzenHelper.EventService.Validation.EventComment;
+namespace UniversityHelper.EventService.Validation.EventComment;
 
 public class EditEventCommentRequestValidator : ExtendedEditRequestValidator<Guid, EditEventCommentRequest>, IEditEventCommentRequestValidator
 {

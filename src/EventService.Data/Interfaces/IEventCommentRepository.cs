@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.Core.Attributes;
 using Microsoft.AspNetCore.JsonPatch;
 
-namespace HerzenHelper.EventService.Data.Interfaces;
+namespace UniversityHelper.EventService.Data.Interfaces;
 
 [AutoInject]
 public interface IEventCommentRepository

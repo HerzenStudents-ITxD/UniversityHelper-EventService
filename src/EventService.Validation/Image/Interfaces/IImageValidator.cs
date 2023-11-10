@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Models.Dto.Requests;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.EventService.Models.Dto.Requests;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Validation.Image.Interfaces;
+namespace UniversityHelper.EventService.Validation.Image.Interfaces;
 
 [AutoInject]
 public interface IImageValidator : IValidator<ImageContent>

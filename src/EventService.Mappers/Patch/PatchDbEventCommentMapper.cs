@@ -1,10 +1,10 @@
-﻿using HerzenHelper.EventService.Mappers.Patch.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
+﻿using UniversityHelper.EventService.Mappers.Patch.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 
-namespace HerzenHelper.EventService.Mappers.Patch;
+namespace UniversityHelper.EventService.Mappers.Patch;
 
 public class PatchDbEventCommentMapper : IPatchDbEventCommentMapper
 {

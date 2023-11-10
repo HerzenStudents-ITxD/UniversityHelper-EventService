@@ -1,12 +1,12 @@
-﻿using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser.Filter;
-using HerzenHelper.Core.Responses;
+﻿using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser.Filter;
+using UniversityHelper.Core.Responses;
 using System.Threading.Tasks;
 using System.Threading;
 using System;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Business.Commands.EventUser.Interfaces;
+namespace UniversityHelper.EventService.Business.Commands.EventUser.Interfaces;
 
 [AutoInject]
 public interface IFindEventUserCommand

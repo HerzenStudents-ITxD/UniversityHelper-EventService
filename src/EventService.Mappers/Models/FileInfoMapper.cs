@@ -1,8 +1,8 @@
-﻿using HerzenHelper.EventService.Mappers.Models.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.Models.Broker.Models.File;
+﻿using UniversityHelper.EventService.Mappers.Models.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.Models.Broker.Models.File;
 
-namespace HerzenHelper.EventService.Mappers.Models;
+namespace UniversityHelper.EventService.Mappers.Models;
 
 public class FileInfoMapper : IFileInfoMapper
 {

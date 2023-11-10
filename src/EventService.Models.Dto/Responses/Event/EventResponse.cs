@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Models;
 
-namespace HerzenHelper.EventService.Models.Dto.Responses.Event;
+namespace UniversityHelper.EventService.Models.Dto.Responses.Event;
 
 public class EventResponse
 {

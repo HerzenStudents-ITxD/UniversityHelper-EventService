@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Business.Commands.File.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Models.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
-using HerzenHelper.Core.Responses;
-using HerzenHelper.Models.Broker.Models.File;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Business.Commands.File.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Models.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.Core.Responses;
+using UniversityHelper.Models.Broker.Models.File;
 
-namespace HerzenHelper.EventService.Business.Commands.File;
+namespace UniversityHelper.EventService.Business.Commands.File;
 
 public class FindFilesCommand : IFindFilesCommand
 {

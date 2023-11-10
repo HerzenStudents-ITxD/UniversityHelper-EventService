@@ -1,10 +1,10 @@
-﻿using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.EFSupport.Provider;
-using HerzenHelper.Core.Enums;
+﻿using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.EFSupport.Provider;
+using UniversityHelper.Core.Enums;
 using Microsoft.EntityFrameworkCore;
 
-namespace HerzenHelper.EventService.Data.Provider;
+namespace UniversityHelper.EventService.Data.Provider;
 
 [AutoInject(InjectType.Scoped)]
 public interface IDataProvider : IBaseDataProvider

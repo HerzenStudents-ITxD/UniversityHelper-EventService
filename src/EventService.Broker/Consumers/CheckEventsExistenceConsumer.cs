@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Common;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.Core.BrokerSupport.Broker;
+using UniversityHelper.Models.Broker.Common;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.Core.BrokerSupport.Broker;
 using MassTransit;
 
-namespace HerzenHelper.EventService.Broker;
+namespace UniversityHelper.EventService.Broker;
 
 public class CheckEventsEntitiesExistenceConsumer : IConsumer<ICheckEventsExistence>
 {

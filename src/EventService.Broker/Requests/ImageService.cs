@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.Image;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Mappers.Models.Interface;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests;
-using HerzenHelper.Core.BrokerSupport.Helpers;
-using HerzenHelper.Core.Extensions;
-using HerzenHelper.Models.Broker.Enums;
-using HerzenHelper.Models.Broker.Models.Image;
-using HerzenHelper.Models.Broker.Requests.Image;
-using HerzenHelper.Models.Broker.Responses.Image;
+using UniversityHelper.Models.Broker.Models.Image;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Mappers.Models.Interface;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests;
+using UniversityHelper.Core.BrokerSupport.Helpers;
+using UniversityHelper.Core.Extensions;
+using UniversityHelper.Models.Broker.Enums;
+using UniversityHelper.Models.Broker.Models.Image;
+using UniversityHelper.Models.Broker.Requests.Image;
+using UniversityHelper.Models.Broker.Responses.Image;
 using MassTransit;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace HerzenHelper.EventService.Broker.Requests;
+namespace UniversityHelper.EventService.Broker.Requests;
 
 public class ImageService : IImageService
 {

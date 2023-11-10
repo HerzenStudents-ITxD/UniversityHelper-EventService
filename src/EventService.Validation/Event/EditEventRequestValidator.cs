@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.Event;
-using HerzenHelper.EventService.Validation.Event.Interfaces;
-using HerzenHelper.Core.Validators;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.Event;
+using UniversityHelper.EventService.Validation.Event.Interfaces;
+using UniversityHelper.Core.Validators;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 
-namespace HerzenHelper.EventService.Validation.Event;
+namespace UniversityHelper.EventService.Validation.Event;
 
 public class EditEventRequestValidator : ExtendedEditRequestValidator<Guid, EditEventRequest>, IEditEventRequestValidator
 {

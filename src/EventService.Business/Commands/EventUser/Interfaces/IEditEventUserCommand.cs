@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.JsonPatch;
 
-namespace HerzenHelper.EventService.Business.Commands.EventUser.Interfaces;
+namespace UniversityHelper.EventService.Business.Commands.EventUser.Interfaces;
 
 [AutoInject]
 public interface IEditEventUserCommand

@@ -1,12 +1,12 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Business.Commands.UserBirthday.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.UserBirthday;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.UserBirthday.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.UserBirthday;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Controllers;
+namespace UniversityHelper.EventService.Controllers;
 
 [Route("[controller]")]
 [ApiController]

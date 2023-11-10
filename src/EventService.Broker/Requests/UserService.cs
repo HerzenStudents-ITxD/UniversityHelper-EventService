@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.User;
-using HerzenHelper.Models.Broker.Requests.User;
-using HerzenHelper.Models.Broker.Responses.User;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.Core.BrokerSupport.Helpers;
-using HerzenHelper.Models.Broker.Common;
-using HerzenHelper.Models.Broker.Requests.User;
-using HerzenHelper.Models.Broker.Responses.User;
+using UniversityHelper.Models.Broker.Models.User;
+using UniversityHelper.Models.Broker.Requests.User;
+using UniversityHelper.Models.Broker.Responses.User;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.Core.BrokerSupport.Helpers;
+using UniversityHelper.Models.Broker.Common;
+using UniversityHelper.Models.Broker.Requests.User;
+using UniversityHelper.Models.Broker.Responses.User;
 using MassTransit;
 
-namespace HerzenHelper.EventService.Broker.Requests;
+namespace UniversityHelper.EventService.Broker.Requests;
 
 public class UserService : IUserService
 {

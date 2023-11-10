@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Business.Commands.Event.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.Event;
-using HerzenHelper.EventService.Models.Dto.Responses.Event;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.Event.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.Event;
+using UniversityHelper.EventService.Models.Dto.Responses.Event;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Controllers;
+namespace UniversityHelper.EventService.Controllers;
 
 [Route("[controller]")]
 [ApiController]

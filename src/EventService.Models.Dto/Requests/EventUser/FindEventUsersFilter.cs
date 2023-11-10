@@ -1,8 +1,8 @@
-﻿using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.Core.Requests;
+﻿using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.Core.Requests;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.EventUser.Filter;
+namespace UniversityHelper.EventService.Models.Dto.Requests.EventUser.Filter;
 
 public record FindEventUsersFilter : BaseFindFilter
 {

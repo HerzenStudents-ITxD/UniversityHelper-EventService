@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
-using HerzenHelper.EventService.Validation.File.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.EventService.Validation.File.Interfaces;
 
-namespace HerzenHelper.EventService.Validation.File;
+namespace UniversityHelper.EventService.Validation.File;
 
 public class RemoveFilesRequestValidator : AbstractValidator<RemoveFilesRequest>, IRemoveFilesRequestValidator
 {

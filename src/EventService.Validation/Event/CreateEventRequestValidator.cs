@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Linq;
 using FluentValidation;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.Event;
-using HerzenHelper.EventService.Validation.Category.Interfaces;
-using HerzenHelper.EventService.Validation.Event.Interfaces;
-using HerzenHelper.EventService.Validation.Image.Interfaces;
-using HerzenHelper.Core.Extensions;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.Event;
+using UniversityHelper.EventService.Validation.Category.Interfaces;
+using UniversityHelper.EventService.Validation.Event.Interfaces;
+using UniversityHelper.EventService.Validation.Image.Interfaces;
+using UniversityHelper.Core.Extensions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
 
-namespace HerzenHelper.EventService.Validation.Event;
+namespace UniversityHelper.EventService.Validation.Event;
 
 public class CreateEventRequestValidator : AbstractValidator<CreateEventRequest>, ICreateEventRequestValidator
 {

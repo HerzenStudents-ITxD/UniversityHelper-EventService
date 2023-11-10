@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.User;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Data.Provider.MsSql.Ef;
-using HerzenHelper.EventService.Models.Db;
+using UniversityHelper.Models.Broker.Models.User;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Data.Provider.MsSql.Ef;
+using UniversityHelper.EventService.Models.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HerzenHelper.EventService.Business.Helpers
+namespace UniversityHelper.EventService.Business.Helpers
 {
   public class UsersBirthdaysGetter
   {

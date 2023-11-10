@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.Image;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.Image;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Broker.Requests.Interfaces;
+namespace UniversityHelper.EventService.Broker.Requests.Interfaces;
 
 [AutoInject]
 public interface IImageService

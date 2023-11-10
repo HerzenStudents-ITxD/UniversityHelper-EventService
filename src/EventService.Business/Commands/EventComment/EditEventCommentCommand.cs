@@ -4,22 +4,22 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using FluentValidation.Results;
-using HerzenHelper.EventService.Broker.Publishes.Interfaces;
-using HerzenHelper.EventService.Business.Commands.EventComment.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Patch.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
-using HerzenHelper.EventService.Validation.EventComment.Interfaces;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
-using HerzenHelper.Core.Constants;
-using HerzenHelper.Core.Extensions;
-using HerzenHelper.Core.Helpers.Interfaces;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Broker.Publishes.Interfaces;
+using UniversityHelper.EventService.Business.Commands.EventComment.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Patch.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.EventService.Validation.EventComment.Interfaces;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+using UniversityHelper.Core.Constants;
+using UniversityHelper.Core.Extensions;
+using UniversityHelper.Core.Helpers.Interfaces;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 
-namespace HerzenHelper.EventService.Business.Commands.EventComment;
+namespace UniversityHelper.EventService.Business.Commands.EventComment;
 
 public class EditEventCommentCommand : IEditEventCommentCommand
 {

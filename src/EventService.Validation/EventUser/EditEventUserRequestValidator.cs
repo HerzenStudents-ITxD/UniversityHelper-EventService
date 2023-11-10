@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser;
-using HerzenHelper.EventService.Validation.EventUser.Interfaces;
-using HerzenHelper.EventService.Validation.EventUser.Resources;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
-using HerzenHelper.Core.Constants;
-using HerzenHelper.Core.Extensions;
-using HerzenHelper.Core.Validators;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser;
+using UniversityHelper.EventService.Validation.EventUser.Interfaces;
+using UniversityHelper.EventService.Validation.EventUser.Resources;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+using UniversityHelper.Core.Constants;
+using UniversityHelper.Core.Extensions;
+using UniversityHelper.Core.Validators;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 
-namespace HerzenHelper.EventService.Validation.EventUser;
+namespace UniversityHelper.EventService.Validation.EventUser;
 
 public class EditEventUserRequestValidator : ExtendedEditRequestValidator<Guid, EditEventUserRequest>, IEditEventUserRequestValidator
 {

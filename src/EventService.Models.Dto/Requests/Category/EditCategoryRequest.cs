@@ -1,6 +1,6 @@
-﻿using HerzenHelper.EventService.Models.Dto.Enums;
+﻿using UniversityHelper.EventService.Models.Dto.Enums;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.Category;
+namespace UniversityHelper.EventService.Models.Dto.Requests.Category;
 
 public class EditCategoryRequest
 {

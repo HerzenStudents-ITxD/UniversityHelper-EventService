@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.EventService.Models.Dto.Enums;
+﻿namespace UniversityHelper.EventService.Models.Dto.Enums;
 
 public enum CategoryColor
 {

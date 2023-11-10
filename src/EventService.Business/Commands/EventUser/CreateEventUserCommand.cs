@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.User;
+using UniversityHelper.Models.Broker.Models.User;
 using FluentValidation.Results;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Business.Commands.EventUser.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser;
-using HerzenHelper.EventService.Validation.EventUser.Interfaces;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
-using HerzenHelper.Core.Constants;
-using HerzenHelper.Core.Extensions;
-using HerzenHelper.Core.Helpers.Interfaces;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Business.Commands.EventUser.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser;
+using UniversityHelper.EventService.Validation.EventUser.Interfaces;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+using UniversityHelper.Core.Constants;
+using UniversityHelper.Core.Extensions;
+using UniversityHelper.Core.Helpers.Interfaces;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Http;
 
-namespace HerzenHelper.EventService.Business.Commands.EventUser;
+namespace UniversityHelper.EventService.Business.Commands.EventUser;
 
 public class CreateEventUserCommand : ICreateEventUserCommand
 {

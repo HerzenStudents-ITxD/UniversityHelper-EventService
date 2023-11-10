@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Models.Dto.Requests.EventCategory;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.EventService.Models.Dto.Requests.EventCategory;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Validation.EventCategory.Interfaces;
+namespace UniversityHelper.EventService.Validation.EventCategory.Interfaces;
 
 [AutoInject]
 public interface IRemoveEventCategoryRequestValidator : IValidator<RemoveEventCategoryRequest>

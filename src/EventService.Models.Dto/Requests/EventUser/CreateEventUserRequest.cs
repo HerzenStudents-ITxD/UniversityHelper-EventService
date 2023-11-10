@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.EventUser;
+namespace UniversityHelper.EventService.Models.Dto.Requests.EventUser;
 
 public record CreateEventUserRequest
 {

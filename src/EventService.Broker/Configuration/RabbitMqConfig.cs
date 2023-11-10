@@ -1,15 +1,15 @@
-﻿using HerzenHelper.Core.BrokerSupport.Attributes;
-using HerzenHelper.Models.Broker.Requests.User;
-using HerzenHelper.EventService.Broker.Consumers;
-using HerzenHelper.Core.BrokerSupport.Attributes;
-using HerzenHelper.Core.BrokerSupport.Configurations;
-using HerzenHelper.Models.Broker.Common;
-using HerzenHelper.Models.Broker.Requests.Email;
-using HerzenHelper.Models.Broker.Requests.File;
-using HerzenHelper.Models.Broker.Requests.Image;
-using HerzenHelper.Models.Broker.Requests.User;
+﻿using UniversityHelper.Core.BrokerSupport.Attributes;
+using UniversityHelper.Models.Broker.Requests.User;
+using UniversityHelper.EventService.Broker.Consumers;
+using UniversityHelper.Core.BrokerSupport.Attributes;
+using UniversityHelper.Core.BrokerSupport.Configurations;
+using UniversityHelper.Models.Broker.Common;
+using UniversityHelper.Models.Broker.Requests.Email;
+using UniversityHelper.Models.Broker.Requests.File;
+using UniversityHelper.Models.Broker.Requests.Image;
+using UniversityHelper.Models.Broker.Requests.User;
 
-namespace HerzenHelper.EventService.Broker.Configuration;
+namespace UniversityHelper.EventService.Broker.Configuration;
 
 public class RabbitMqConfig : BaseRabbitMqConfig
 {

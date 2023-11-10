@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Dto.Requests.Category;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Models.Dto.Requests.Category;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.JsonPatch;
 
-namespace HerzenHelper.EventService.Business.Commands.Category.Interfaces;
+namespace UniversityHelper.EventService.Business.Commands.Category.Interfaces;
 
 [AutoInject]
 public interface IEditCategoryCommand

@@ -1,8 +1,8 @@
-﻿using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Models.Broker.Models.Image;
+﻿using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.Image;
 
-namespace HerzenHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interface;
 
 [AutoInject]
 public interface IImageInfoMapper

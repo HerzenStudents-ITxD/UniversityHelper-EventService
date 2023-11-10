@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.EventCategory;
-using HerzenHelper.EventService.Validation.EventCategory.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.EventCategory;
+using UniversityHelper.EventService.Validation.EventCategory.Interfaces;
 
-namespace HerzenHelper.EventService.Validation.EventCategory;
+namespace UniversityHelper.EventService.Validation.EventCategory;
 
 public class RemoveEventCategoryRequestValidator : AbstractValidator<RemoveEventCategoryRequest>, IRemoveEventCategoryRequestValidator
 {

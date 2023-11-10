@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using HerzenHelper.EventService.Business.Commands.File.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.File.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Controllers;
+namespace UniversityHelper.EventService.Controllers;
 
 [Route("[controller]")]
 [ApiController]

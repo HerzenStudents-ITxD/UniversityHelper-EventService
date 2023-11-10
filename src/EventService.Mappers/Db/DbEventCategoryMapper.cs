@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Requests.EventCategory;
-using HerzenHelper.Core.Extensions;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Requests.EventCategory;
+using UniversityHelper.Core.Extensions;
 using Microsoft.AspNetCore.Http;
 
-namespace HerzenHelper.EventService.Mappers.Db;
+namespace UniversityHelper.EventService.Mappers.Db;
 
 public class DbEventCategoryMapper : IDbEventCategoryMapper
 {

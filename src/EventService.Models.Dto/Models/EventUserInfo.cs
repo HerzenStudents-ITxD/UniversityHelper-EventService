@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using HerzenHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Enums;
 
-namespace HerzenHelper.EventService.Models.Dto.Models;
+namespace UniversityHelper.EventService.Models.Dto.Models;
 
 public record EventUserInfo
 {

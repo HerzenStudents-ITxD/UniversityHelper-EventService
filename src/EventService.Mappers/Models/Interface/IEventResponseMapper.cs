@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
-using HerzenHelper.Models.Broker.Models.User;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Responses.Event;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Models.Broker.Models.File;
-using HerzenHelper.Models.Broker.Models.Image;
+using UniversityHelper.Models.Broker.Models.User;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Responses.Event;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.File;
+using UniversityHelper.Models.Broker.Models.Image;
 
-namespace HerzenHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interface;
 
 [AutoInject]
 public interface IEventResponseMapper

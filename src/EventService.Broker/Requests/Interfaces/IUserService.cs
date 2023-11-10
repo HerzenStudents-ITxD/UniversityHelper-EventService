@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.User;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.User;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Broker.Requests.Interfaces;
+namespace UniversityHelper.EventService.Broker.Requests.Interfaces;
 
 [AutoInject]
 public interface IUserService

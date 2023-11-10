@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.EventUser;
+namespace UniversityHelper.EventService.Models.Dto.Requests.EventUser;
 
 public record UserRequest
 {

@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using HealthChecks.UI.Client;
-using HerzenHelper.EventService.Broker.Configuration;
-using HerzenHelper.EventService.Business.Helpers;
-using HerzenHelper.EventService.Data.Provider.MsSql.Ef;
-using HerzenHelper.Core.BrokerSupport.Configurations;
-using HerzenHelper.Core.BrokerSupport.Extensions;
-using HerzenHelper.Core.BrokerSupport.Middlewares.Token;
-using HerzenHelper.Core.Configurations;
-using HerzenHelper.Core.EFSupport.Extensions;
-using HerzenHelper.Core.EFSupport.Helpers;
-using HerzenHelper.Core.Extensions;
-using HerzenHelper.Core.Middlewares.ApiInformation;
+using UniversityHelper.EventService.Broker.Configuration;
+using UniversityHelper.EventService.Business.Helpers;
+using UniversityHelper.EventService.Data.Provider.MsSql.Ef;
+using UniversityHelper.Core.BrokerSupport.Configurations;
+using UniversityHelper.Core.BrokerSupport.Extensions;
+using UniversityHelper.Core.BrokerSupport.Middlewares.Token;
+using UniversityHelper.Core.Configurations;
+using UniversityHelper.Core.EFSupport.Extensions;
+using UniversityHelper.Core.EFSupport.Helpers;
+using UniversityHelper.Core.Extensions;
+using UniversityHelper.Core.Middlewares.ApiInformation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.EntityFrameworkCore;
@@ -21,7 +21,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
 
-namespace HerzenHelper.EventService;
+namespace UniversityHelper.EventService;
 
 public class Startup : BaseApiInfo
 {
@@ -62,7 +62,7 @@ public class Startup : BaseApiInfo
     Version = "2.0.1";
     Description = "EventService is an API that intended to work with events.";
     StartTime = DateTime.UtcNow;
-    ApiName = $"HerzenHelper - {_serviceInfoConfig.Name}";
+    ApiName = $"UniversityHelper - {_serviceInfoConfig.Name}";
   }
 
   public void ConfigureServices(IServiceCollection services)

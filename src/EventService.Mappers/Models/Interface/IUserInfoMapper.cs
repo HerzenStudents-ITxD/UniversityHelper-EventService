@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using HerzenHelper.Models.Broker.Models.User;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.User;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interface;
 
 [AutoInject]
 public interface IUserInfoMapper

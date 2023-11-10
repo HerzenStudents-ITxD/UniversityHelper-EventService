@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Business.Commands.Category.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Models.Interface;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.Category;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.Category.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Models.Interface;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.Category;
+using UniversityHelper.Core.Responses;
 
-namespace HerzenHelper.EventService.Business.Commands.Category;
+namespace UniversityHelper.EventService.Business.Commands.Category;
 
 public class FindCategoriesCommand : IFindCategoriesCommand
 {

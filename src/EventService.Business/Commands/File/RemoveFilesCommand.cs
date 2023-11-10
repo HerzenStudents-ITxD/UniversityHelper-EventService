@@ -1,17 +1,17 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentValidation.Results;
-using HerzenHelper.EventService.Broker.Publishes.Interfaces;
-using HerzenHelper.EventService.Business.Commands.File.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
-using HerzenHelper.EventService.Validation.File.Interfaces;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
-using HerzenHelper.Core.Constants;
-using HerzenHelper.Core.Helpers.Interfaces;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Broker.Publishes.Interfaces;
+using UniversityHelper.EventService.Business.Commands.File.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.EventService.Validation.File.Interfaces;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+using UniversityHelper.Core.Constants;
+using UniversityHelper.Core.Helpers.Interfaces;
+using UniversityHelper.Core.Responses;
 
-namespace HerzenHelper.EventService.Business.Commands.File;
+namespace UniversityHelper.EventService.Business.Commands.File;
 
 public class RemoveFilesCommand : IRemoveFilesCommand
 {

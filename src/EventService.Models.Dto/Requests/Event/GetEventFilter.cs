@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.Event;
+namespace UniversityHelper.EventService.Models.Dto.Requests.Event;
 
 public record GetEventFilter
 {

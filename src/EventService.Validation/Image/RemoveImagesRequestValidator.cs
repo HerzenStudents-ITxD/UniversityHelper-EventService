@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Models.Dto.Requests.Image;
-using HerzenHelper.EventService.Validation.Image.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.Image;
+using UniversityHelper.EventService.Validation.Image.Interfaces;
 
-namespace HerzenHelper.EventService.Validation.Image;
+namespace UniversityHelper.EventService.Validation.Image;
 
 public class RemoveImagesRequestValidator : AbstractValidator<RemoveImageRequest>, IRemoveImagesRequestValidator
 {

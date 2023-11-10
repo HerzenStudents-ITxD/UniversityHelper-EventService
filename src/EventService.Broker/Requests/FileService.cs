@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Enums;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.Core.BrokerSupport.Helpers;
-using HerzenHelper.Models.Broker.Models.File;
-using HerzenHelper.Models.Broker.Requests.File;
-using HerzenHelper.Models.Broker.Responses.File;
+using UniversityHelper.Models.Broker.Enums;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.Core.BrokerSupport.Helpers;
+using UniversityHelper.Models.Broker.Models.File;
+using UniversityHelper.Models.Broker.Requests.File;
+using UniversityHelper.Models.Broker.Responses.File;
 using MassTransit;
 using Microsoft.Extensions.Logging;
 
-namespace HerzenHelper.EventService.Broker.Requests;
+namespace UniversityHelper.EventService.Broker.Requests;
 
 public class FileService : IFileService
 {

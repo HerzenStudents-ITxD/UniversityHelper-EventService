@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HerzenHelper.EventService.Models.Dto.Models;
+namespace UniversityHelper.EventService.Models.Dto.Models;
 
 public class CommentInfo
 {

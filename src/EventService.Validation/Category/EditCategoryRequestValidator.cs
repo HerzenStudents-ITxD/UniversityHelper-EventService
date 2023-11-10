@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.Category;
-using HerzenHelper.EventService.Validation.Category.Interfaces;
-using HerzenHelper.Core.Validators;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.Category;
+using UniversityHelper.EventService.Validation.Category.Interfaces;
+using UniversityHelper.Core.Validators;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 
-namespace HerzenHelper.EventService.Validation.Category;
+namespace UniversityHelper.EventService.Validation.Category;
 
 public class EditCategoryRequestValidator : ExtendedEditRequestValidator<Guid, EditCategoryRequest>, IEditCategoryRequestValidator
 {

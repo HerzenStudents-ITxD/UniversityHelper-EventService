@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.EventService.Models.Dto.Requests.EventComment;
+﻿namespace UniversityHelper.EventService.Models.Dto.Requests.EventComment;
 
 public record EditEventCommentRequest
 {

@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Validation.EventComment.Interfaces;
+namespace UniversityHelper.EventService.Validation.EventComment.Interfaces;
 
 [AutoInject]
 public interface ICreateEventCommentRequestValidator : IValidator<CreateEventCommentRequest>

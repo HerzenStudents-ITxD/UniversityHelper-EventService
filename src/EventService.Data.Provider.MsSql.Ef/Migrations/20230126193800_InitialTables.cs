@@ -1,9 +1,9 @@
 ﻿using System;
-using HerzenHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Db;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace HerzenHelper.EventService.Data.Provider.MsSql.Ef.Migrations;
+namespace UniversityHelper.EventService.Data.Provider.MsSql.Ef.Migrations;
 
 [DbContext(typeof(EventServiceDbContext))]
 [Migration("20230605150000_InitialTables")]

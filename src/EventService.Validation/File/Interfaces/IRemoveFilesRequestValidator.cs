@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Validation.File.Interfaces;
+namespace UniversityHelper.EventService.Validation.File.Interfaces;
 
 [AutoInject]
 public interface IRemoveFilesRequestValidator : IValidator<RemoveFilesRequest>

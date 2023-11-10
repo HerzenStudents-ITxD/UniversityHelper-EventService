@@ -1,11 +1,11 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Publishing.Subscriber.File;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.Models.Broker.Publishing.Subscriber.File;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
 using MassTransit;
 
-namespace HerzenHelper.EventService.Broker.Consumers;
+namespace UniversityHelper.EventService.Broker.Consumers;
 
 public class CreateFilesConsumer : IConsumer<ICreateEventFilesPublish>
 {

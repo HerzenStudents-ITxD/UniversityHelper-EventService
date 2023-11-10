@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser;
 
-namespace HerzenHelper.EventService.Mappers.Db;
+namespace UniversityHelper.EventService.Mappers.Db;
 
 public class DbEventUserMapper : IDbEventUserMapper
 {

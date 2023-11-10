@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HerzenHelper.EventService.Models.Dto.Models;
+namespace UniversityHelper.EventService.Models.Dto.Models;
 
 public record UserBirthdayInfo
 {

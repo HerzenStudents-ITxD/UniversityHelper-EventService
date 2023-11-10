@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Publishing.Subscriber.User;
-using HerzenHelper.EventService.Data.Interfaces;
+using UniversityHelper.Models.Broker.Publishing.Subscriber.User;
+using UniversityHelper.EventService.Data.Interfaces;
 using MassTransit;
 
-namespace HerzenHelper.EventService.Broker.Consumers;
+namespace UniversityHelper.EventService.Broker.Consumers;
 
 public class UpdateUserBirthdayConsumer : IConsumer<IUpdateUserBirthdayPublish>
 {

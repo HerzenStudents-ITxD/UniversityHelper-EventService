@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Data.Provider;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Data.Provider;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
 using Microsoft.EntityFrameworkCore;
 
-namespace HerzenHelper.EventService.Data;
+namespace UniversityHelper.EventService.Data;
 
 public class FileRepository : IFileRepository
 {

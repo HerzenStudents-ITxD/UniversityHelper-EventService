@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace HerzenHelper.EventService.Models.Db;
+namespace UniversityHelper.EventService.Models.Db;
 
 public class DbUserBirthday
 {

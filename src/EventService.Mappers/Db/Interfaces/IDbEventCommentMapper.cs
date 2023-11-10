@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Mappers.Db.Interfaces;
+namespace UniversityHelper.EventService.Mappers.Db.Interfaces;
 
 [AutoInject]
 public interface IDbEventCommentMapper

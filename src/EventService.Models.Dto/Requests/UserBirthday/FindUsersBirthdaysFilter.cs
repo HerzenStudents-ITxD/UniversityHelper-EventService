@@ -1,8 +1,8 @@
 ﻿using System;
-using HerzenHelper.Core.Requests;
+using UniversityHelper.Core.Requests;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.UserBirthday;
+namespace UniversityHelper.EventService.Models.Dto.Requests.UserBirthday;
 
 public record FindUsersBirthdaysFilter : BaseFindFilter
 {

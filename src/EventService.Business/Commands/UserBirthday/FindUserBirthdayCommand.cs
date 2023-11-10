@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Business.Commands.UserBirthday.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Models.Interface;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.UserBirthday;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.UserBirthday.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Models.Interface;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.UserBirthday;
+using UniversityHelper.Core.Responses;
 
-namespace HerzenHelper.EventService.Business.Commands.UserBirthday;
+namespace UniversityHelper.EventService.Business.Commands.UserBirthday;
 
 public class FindUserBirthdayCommand : IFindUserBirthdayCommand
 {

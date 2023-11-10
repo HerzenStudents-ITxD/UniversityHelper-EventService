@@ -1,8 +1,8 @@
 ﻿using System;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
-using HerzenHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.EventService.Models.Db;
 
-namespace HerzenHelper.EventService.Mappers.Db;
+namespace UniversityHelper.EventService.Mappers.Db;
 
 public class DbImageMapper : IDbImageMapper
 {

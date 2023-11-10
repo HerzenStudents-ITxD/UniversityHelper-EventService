@@ -1,8 +1,8 @@
-﻿using HerzenHelper.EventService.Mappers.Models.Interface;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.Models.Broker.Models.Image;
+﻿using UniversityHelper.EventService.Mappers.Models.Interface;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.Models.Broker.Models.Image;
 
-namespace HerzenHelper.EventService.Mappers.Models;
+namespace UniversityHelper.EventService.Mappers.Models;
 
 public class ImageInfoMapper : IImageInfoMapper
 {

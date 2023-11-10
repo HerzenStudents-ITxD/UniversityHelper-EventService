@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.EventService.Models.Dto.Requests.File;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Models.Dto.Requests.File;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Responses;
 
-namespace HerzenHelper.EventService.Business.Commands.File.Interfaces;
+namespace UniversityHelper.EventService.Business.Commands.File.Interfaces;
 
 [AutoInject]
 public interface IFindFilesCommand

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.Core.Attributes;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Broker.Publishes.Interfaces;
+namespace UniversityHelper.EventService.Broker.Publishes.Interfaces;
 
 [AutoInject]
 public interface IPublish

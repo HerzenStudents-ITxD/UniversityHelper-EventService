@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Business.Commands.Image.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.Image;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.Image.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.Image;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HerzenHelper.EventService.Controllers;
+namespace UniversityHelper.EventService.Controllers;
 
 [Route("[controller]")]
 [ApiController]

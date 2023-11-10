@@ -1,8 +1,8 @@
-﻿using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Models.Broker.Models.File;
+﻿using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.File;
 
-namespace HerzenHelper.EventService.Mappers.Models.Interfaces;
+namespace UniversityHelper.EventService.Mappers.Models.Interfaces;
 
 [AutoInject]
 public interface IFileInfoMapper

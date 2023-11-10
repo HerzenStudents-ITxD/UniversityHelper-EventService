@@ -1,12 +1,12 @@
-﻿using HerzenHelper.Core.Responses;
+﻿using UniversityHelper.Core.Responses;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
 using System;
-using HerzenHelper.EventService.Business.Commands.EventComment.Interfaces;
+using UniversityHelper.EventService.Business.Commands.EventComment.Interfaces;
 using Microsoft.AspNetCore.JsonPatch;
 
-namespace HerzenHelper.EventService.Controllers;
+namespace UniversityHelper.EventService.Controllers;
 
 [Route("[controller]")]
 [ApiController]

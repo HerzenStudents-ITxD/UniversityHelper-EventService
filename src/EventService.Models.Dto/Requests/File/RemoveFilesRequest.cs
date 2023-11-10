@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.File;
+namespace UniversityHelper.EventService.Models.Dto.Requests.File;
 
 public record RemoveFilesRequest
 {

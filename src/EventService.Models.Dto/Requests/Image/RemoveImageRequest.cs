@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.Image;
+namespace UniversityHelper.EventService.Models.Dto.Requests.Image;
 
 public record RemoveImageRequest
 {

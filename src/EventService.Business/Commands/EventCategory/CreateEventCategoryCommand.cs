@@ -3,18 +3,18 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using FluentValidation.Results;
-using HerzenHelper.EventService.Business.Commands.EventCategory.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.EventCategory;
-using HerzenHelper.EventService.Validation.EventCategory.Interfaces;
-using HerzenHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
-using HerzenHelper.Core.Constants;
-using HerzenHelper.Core.Helpers.Interfaces;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Business.Commands.EventCategory.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.EventCategory;
+using UniversityHelper.EventService.Validation.EventCategory.Interfaces;
+using UniversityHelper.Core.BrokerSupport.AccessValidatorEngine.Interfaces;
+using UniversityHelper.Core.Constants;
+using UniversityHelper.Core.Helpers.Interfaces;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Http;
 
-namespace HerzenHelper.EventService.Business.Commands.EventCategory;
+namespace UniversityHelper.EventService.Business.Commands.EventCategory;
 
 public class CreateEventCategoryCommand : ICreateEventCategoryCommand
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace HerzenHelper.EventService.Models.Db;
+namespace UniversityHelper.EventService.Models.Db;
 
 public class DbEventComment
 {

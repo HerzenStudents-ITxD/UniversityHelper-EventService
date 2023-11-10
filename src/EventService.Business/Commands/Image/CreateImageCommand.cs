@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Models.Image;
+using UniversityHelper.Models.Broker.Models.Image;
 using FluentValidation.Results;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Business.Commands.Image.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Mappers.Db.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.Image;
-using HerzenHelper.EventService.Validation.Image.Interfaces;
-using HerzenHelper.Core.Helpers.Interfaces;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Business.Commands.Image.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Mappers.Db.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.Image;
+using UniversityHelper.EventService.Validation.Image.Interfaces;
+using UniversityHelper.Core.Helpers.Interfaces;
+using UniversityHelper.Core.Responses;
 using Microsoft.AspNetCore.Http;
 
-namespace HerzenHelper.EventService.Business.Commands.Image;
+namespace UniversityHelper.EventService.Business.Commands.Image;
 
 public class CreateImageCommand : ICreateImageCommand
 {

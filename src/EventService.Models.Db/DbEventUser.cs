@@ -1,9 +1,9 @@
 ﻿using System;
-using HerzenHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace HerzenHelper.EventService.Models.Db;
+namespace UniversityHelper.EventService.Models.Db;
 
 public class DbEventUser
 {

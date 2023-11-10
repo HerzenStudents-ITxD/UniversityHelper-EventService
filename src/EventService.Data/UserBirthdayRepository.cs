@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Data.Provider;
-using HerzenHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Data.Provider;
+using UniversityHelper.EventService.Models.Db;
 using Microsoft.EntityFrameworkCore;
 
-namespace HerzenHelper.EventService.Data
+namespace UniversityHelper.EventService.Data
 {
   public class UserBirthdayRepository : IUserBirthdayRepository
   {

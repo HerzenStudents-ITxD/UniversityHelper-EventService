@@ -1,8 +1,8 @@
-﻿using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Models;
-using HerzenHelper.Core.Attributes;
+﻿using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Models;
+using UniversityHelper.Core.Attributes;
 
-namespace HerzenHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interface;
 
 [AutoInject]
 public interface ICommentInfoMapper

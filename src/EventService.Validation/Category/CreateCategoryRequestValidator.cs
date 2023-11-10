@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.Category;
-using HerzenHelper.EventService.Validation.Category.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.Category;
+using UniversityHelper.EventService.Validation.Category.Interfaces;
 
-namespace HerzenHelper.EventService.Validation.Category;
+namespace UniversityHelper.EventService.Validation.Category;
 
 public class CreateCategoryRequestValidator : AbstractValidator<CreateCategoryRequest>, ICreateCategoryRequestValidator
 {

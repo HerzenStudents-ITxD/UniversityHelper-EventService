@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Db;
 using Microsoft.EntityFrameworkCore;
 
-namespace HerzenHelper.EventService.Data.Provider.MsSql.Ef;
+namespace UniversityHelper.EventService.Data.Provider.MsSql.Ef;
 
 public class EventServiceDbContext : DbContext, IDataProvider
 {
@@ -23,7 +23,7 @@ public class EventServiceDbContext : DbContext, IDataProvider
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
-    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("HerzenHelper.EventService.Models.Db"));
+    modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("UniversityHelper.EventService.Models.Db"));
   }
 
   public void Save()

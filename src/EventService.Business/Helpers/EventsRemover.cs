@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Broker.Publishes.Interfaces;
-using HerzenHelper.EventService.Data.Provider.MsSql.Ef;
-using HerzenHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Broker.Publishes.Interfaces;
+using UniversityHelper.EventService.Data.Provider.MsSql.Ef;
+using UniversityHelper.EventService.Models.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace HerzenHelper.EventService.Business.Helpers;
+namespace UniversityHelper.EventService.Business.Helpers;
 
 public class EventsRemover
 {

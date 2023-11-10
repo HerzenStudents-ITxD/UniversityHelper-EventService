@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using HerzenHelper.EventService.Models.Dto.Enums;
-using HerzenHelper.EventService.Models.Dto.Requests.Category;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser;
+using UniversityHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Requests.Category;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.Event;
+namespace UniversityHelper.EventService.Models.Dto.Requests.Event;
 
 public record CreateEventRequest
 {

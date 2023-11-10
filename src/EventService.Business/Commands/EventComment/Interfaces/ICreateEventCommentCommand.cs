@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Responses;
 
-namespace HerzenHelper.EventService.Business.Commands.EventComment.Interfaces;
+namespace UniversityHelper.EventService.Business.Commands.EventComment.Interfaces;
 
 [AutoInject]
 public interface ICreateEventCommentCommand

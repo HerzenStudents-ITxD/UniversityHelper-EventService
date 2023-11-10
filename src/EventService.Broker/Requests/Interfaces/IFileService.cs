@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Models.Broker.Models.File;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Models.Broker.Models.File;
 
-namespace HerzenHelper.EventService.Broker.Requests.Interfaces;
+namespace UniversityHelper.EventService.Broker.Requests.Interfaces;
 
 [AutoInject]
 public interface IFileService

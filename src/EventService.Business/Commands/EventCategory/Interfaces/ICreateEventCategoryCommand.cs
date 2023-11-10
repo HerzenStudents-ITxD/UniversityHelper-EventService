@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
-using HerzenHelper.EventService.Models.Dto.Requests.EventCategory;
-using HerzenHelper.Core.Attributes;
-using HerzenHelper.Core.Responses;
+using UniversityHelper.EventService.Models.Dto.Requests.EventCategory;
+using UniversityHelper.Core.Attributes;
+using UniversityHelper.Core.Responses;
 
-namespace HerzenHelper.EventService.Business.Commands.EventCategory.Interfaces;
+namespace UniversityHelper.EventService.Business.Commands.EventCategory.Interfaces;
 
 [AutoInject]
 public interface ICreateEventCategoryCommand

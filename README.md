@@ -1,2 +1,2 @@
-# HerzenHelper-EventService
-—ервис проекта HerzenHelper дл€ работы с событи€ми сообществ
+# UniversityHelper-EventService
+—ервис проекта UniversityHelper дл€ работы с событи€ми сообществ

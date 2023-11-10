@@ -1,7 +1,7 @@
 ﻿using System;
-using HerzenHelper.EventService.Models.Dto.Enums;
+using UniversityHelper.EventService.Models.Dto.Enums;
 
-namespace HerzenHelper.EventService.Models.Dto.Requests.Event;
+namespace UniversityHelper.EventService.Models.Dto.Requests.Event;
 
 public record EditEventRequest
 {

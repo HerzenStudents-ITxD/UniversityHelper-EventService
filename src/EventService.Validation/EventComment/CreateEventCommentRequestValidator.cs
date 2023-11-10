@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using FluentValidation;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.EventComment;
-using HerzenHelper.EventService.Validation.EventComment.Interfaces;
-using HerzenHelper.EventService.Validation.Image.Interfaces;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.EventComment;
+using UniversityHelper.EventService.Validation.EventComment.Interfaces;
+using UniversityHelper.EventService.Validation.Image.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
-namespace HerzenHelper.EventService.Validation.EventComment;
+namespace UniversityHelper.EventService.Validation.EventComment;
 
 public class CreateEventCommentRequestValidator : AbstractValidator<CreateEventCommentRequest>, ICreateEventCommentRequestValidator
 {

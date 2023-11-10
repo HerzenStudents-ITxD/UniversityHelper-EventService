@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HerzenHelper.Models.Broker.Enums;
-using HerzenHelper.EventService.Broker.Publishes.Interfaces;
-using HerzenHelper.Models.Broker.Enums;
-using HerzenHelper.Models.Broker.Publishing.Subscriber.File;
-using HerzenHelper.Models.Broker.Publishing.Subscriber.Image;
+using UniversityHelper.Models.Broker.Enums;
+using UniversityHelper.EventService.Broker.Publishes.Interfaces;
+using UniversityHelper.Models.Broker.Enums;
+using UniversityHelper.Models.Broker.Publishing.Subscriber.File;
+using UniversityHelper.Models.Broker.Publishing.Subscriber.Image;
 using MassTransit;
 
-namespace HerzenHelper.EventService.Broker.Publishes;
+namespace UniversityHelper.EventService.Broker.Publishes;
 
 public class Publish : IPublish
 {

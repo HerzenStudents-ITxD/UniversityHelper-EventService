@@ -1,4 +1,4 @@
-﻿namespace HerzenHelper.EventService.Models.Dto.Requests;
+﻿namespace UniversityHelper.EventService.Models.Dto.Requests;
 
 public record ImageContent
 {

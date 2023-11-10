@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using HerzenHelper.EventService.Mappers.Models.Interface;
-using HerzenHelper.EventService.Models.Db;
-using HerzenHelper.EventService.Models.Dto.Models;
+using UniversityHelper.EventService.Mappers.Models.Interface;
+using UniversityHelper.EventService.Models.Db;
+using UniversityHelper.EventService.Models.Dto.Models;
 
-namespace HerzenHelper.EventService.Mappers.Models;
+namespace UniversityHelper.EventService.Mappers.Models;
 
 public class EventUserInfoMapper : IEventUserInfoMapper
 {

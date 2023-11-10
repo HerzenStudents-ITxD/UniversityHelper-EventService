@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using FluentValidation;
-using HerzenHelper.EventService.Broker.Requests.Interfaces;
-using HerzenHelper.EventService.Data.Interfaces;
-using HerzenHelper.EventService.Models.Dto.Requests.EventUser;
-using HerzenHelper.EventService.Validation.EventUser.Interfaces;
+using UniversityHelper.EventService.Broker.Requests.Interfaces;
+using UniversityHelper.EventService.Data.Interfaces;
+using UniversityHelper.EventService.Models.Dto.Requests.EventUser;
+using UniversityHelper.EventService.Validation.EventUser.Interfaces;
 
-namespace HerzenHelper.EventService.Validation.EventUser;
+namespace UniversityHelper.EventService.Validation.EventUser;
 
 public class CreateEventUserRequestValidator : AbstractValidator<CreateEventUserRequest>, ICreateEventUserRequestValidator
 {
