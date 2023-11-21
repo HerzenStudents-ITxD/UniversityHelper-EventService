@@ -20,6 +20,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 namespace UniversityHelper.EventService;
 
@@ -59,7 +60,7 @@ public class Startup : BaseApiInfo
       .GetSection(BaseRabbitMqConfig.SectionName)
       .Get<RabbitMqConfig>();
 
-    Version = "2.0.1";
+    Version = "2.0.2";
     Description = "EventService is an API that intended to work with events.";
     StartTime = DateTime.UtcNow;
     ApiName = $"UniversityHelper - {_serviceInfoConfig.Name}";
@@ -110,6 +111,18 @@ public class Startup : BaseApiInfo
        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
      })
       .AddNewtonsoftJson();
+
+    services.AddSwaggerGen(options =>
+    {
+      options.SwaggerDoc($"{Version}", new OpenApiInfo
+      {
+        Version = Version,
+        Title = _serviceInfoConfig.Name,
+        Description = Description
+      });
+
+      options.EnableAnnotations();
+    });
   }
 
   public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory)
@@ -147,5 +160,11 @@ public class Startup : BaseApiInfo
         ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
       });
     });
+
+    app.UseSwagger()
+      .UseSwaggerUI(options =>
+      {
+        options.SwaggerEndpoint($"/swagger/{Version}/swagger.json", $"{Version}");
+      });
   }
 }
