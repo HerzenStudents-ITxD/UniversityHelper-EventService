@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UniversityHelper.Models.Broker.Models.User;
-using UniversityHelper.EventService.Mappers.Models.Interface;
 using UniversityHelper.EventService.Mappers.Models.Interfaces;
 using UniversityHelper.EventService.Models.Db;
 using UniversityHelper.EventService.Models.Dto.Models;
@@ -14,24 +13,18 @@ public class EventResponseMapper : IEventResponseMapper
 {
   private readonly ICategoryInfoMapper _categoryInfoMapper;
   private readonly IUserInfoMapper _userInfoMapper;
-  private readonly IFileInfoMapper _fileInfoMapper;
 
   public EventResponseMapper(
     ICategoryInfoMapper categoryInfoMapper,
-    IUserInfoMapper userInfoMapper,
-    IFileInfoMapper fileInfoMapper)
+    IUserInfoMapper userInfoMapper)
   {
     _categoryInfoMapper = categoryInfoMapper;
     _userInfoMapper = userInfoMapper;
-    _fileInfoMapper = fileInfoMapper;
   }
 
   public EventResponse Map(
     DbEvent dbEvent,
-    List<UserData> usersData,
-    List<ImageInfo> images,
-    List<FileCharacteristicsData> files,
-    List<CommentInfo> comments)
+    List<UserData> usersData)
   {
     return dbEvent is null
       ? null
@@ -48,10 +41,7 @@ public class EventResponseMapper : IEventResponseMapper
         EventCategories = dbEvent.EventsCategories.Any()
           ? dbEvent.EventsCategories?.Select(ec => _categoryInfoMapper.Map(ec.Category)).ToList()
           : null,
-        EventUsers = _userInfoMapper.Map(usersData),
-        EventImages = images,
-        EventFiles = files?.ConvertAll(_fileInfoMapper.Map),
-        EventComments = comments
+        EventUsers = _userInfoMapper.Map(usersData)
       };
   }
 }

@@ -2,10 +2,10 @@
 using UniversityHelper.EventService.Models.Dto.Models;
 using UniversityHelper.Core.Attributes;
 
-namespace UniversityHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interfaces;
 
 [AutoInject]
-public interface ICommentInfoMapper
+public interface IEventInfoMapper
 {
-  CommentInfo Map(DbEventComment dbComment);
+  EventInfo Map(DbEvent dbEvent);
 }

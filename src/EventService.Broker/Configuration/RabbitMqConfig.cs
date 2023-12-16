@@ -1,13 +1,11 @@
 ﻿using UniversityHelper.Core.BrokerSupport.Attributes;
 using UniversityHelper.Models.Broker.Requests.User;
 using UniversityHelper.EventService.Broker.Consumers;
-using UniversityHelper.Core.BrokerSupport.Attributes;
 using UniversityHelper.Core.BrokerSupport.Configurations;
 using UniversityHelper.Models.Broker.Common;
 using UniversityHelper.Models.Broker.Requests.Email;
 using UniversityHelper.Models.Broker.Requests.File;
 using UniversityHelper.Models.Broker.Requests.Image;
-using UniversityHelper.Models.Broker.Requests.User;
 
 namespace UniversityHelper.EventService.Broker.Configuration;
 
@@ -17,9 +15,6 @@ public class RabbitMqConfig : BaseRabbitMqConfig
 
   [MassTransitEndpoint(typeof(UpdateUserBirthdayConsumer))]
   public string UpdateUserBirthdayEndpoint { get; init; }
-
-  [MassTransitEndpoint(typeof(CreateFilesConsumer))]
-  public string CreateFilesEndpoint { get; init; }
 
   [MassTransitEndpoint(typeof(CheckEventsEntitiesExistenceConsumer))]
   public string CheckEventsEntitiesExistenceEndpoint { get; init; }

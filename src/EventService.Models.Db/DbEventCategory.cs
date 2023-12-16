@@ -9,10 +9,11 @@ public class DbEventCategory
   public const string TableName = "EventsCategories";
 
   public Guid Id { get; set; }
-  public Guid EventId { get; set; }
-  public Guid CategoryId { get; set; }
   public Guid CreatedBy { get; set; }
   public DateTime CreatedAtUtc { get; set; }
+
+  public Guid EventId { get; set; }
+  public Guid CategoryId { get; set; }
 
   public DbEvent Event { get; set; }
   public DbCategory Category { get; set; }

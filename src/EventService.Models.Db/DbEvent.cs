@@ -10,6 +10,12 @@ public class DbEvent
 {
   public const string TableName = "Events";
   public Guid Id { get; set; }
+  public bool IsActive { get; set; }
+  public Guid CreatedBy { get; set; }
+  public DateTime CreatedAtUtc { get; set; }
+  public Guid? ModifiedBy { get; set; }
+  public DateTime? ModifiedAtUtc { get; set; }
+
   public string Name { get; set; }
   public string Address { get; set; }
   public string Description { get; set; }
@@ -17,24 +23,14 @@ public class DbEvent
   public DateTime? EndDate { get; set; }
   public FormatType Format { get; set; }
   public AccessType Access { get; set; }
-  public bool IsActive { get; set; }
-  public Guid CreatedBy { get; set; }
-  public DateTime CreatedAtUtc { get; set; }
-  public Guid? ModifiedBy { get; set; }
-  public DateTime? ModifiedAtUtc { get; set; }
+
   public ICollection<DbEventCategory> EventsCategories { get; set; }
-  public ICollection<DbFile> Files { get; set; }
-  public ICollection<DbImage> Images { get; set; }
   public ICollection<DbEventUser> Users { get; set; }
-  public ICollection<DbEventComment> Comments { get; set; }
   
   public DbEvent()
   {
     EventsCategories = new HashSet<DbEventCategory>();
-    Files = new HashSet<DbFile>();
-    Images = new HashSet<DbImage>();
     Users = new HashSet<DbEventUser>();
-    Comments = new HashSet<DbEventComment>();
   }
 
   public class DbEventConfiguration : IEntityTypeConfiguration<DbEvent>
@@ -52,21 +48,8 @@ public class DbEvent
         .WithOne(ec => ec.Event);
 
       builder
-        .HasMany(e => e.Files)
-        .WithOne(ef => ef.Event);
-
-      builder
-        .HasMany(e => e.Images)
-        .WithOne(ei => ei.Event)
-        .HasForeignKey(i => i.EntityId);
-
-      builder
         .HasMany(e => e.Users)
         .WithOne(eu => eu.Event);
-
-      builder
-        .HasMany(e => e.Comments)
-        .WithOne(c => c.Event);
     }
   }
 }

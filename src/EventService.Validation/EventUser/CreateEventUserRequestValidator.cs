@@ -40,7 +40,7 @@ public class CreateEventUserRequestValidator : AbstractValidator<CreateEventUser
           return !req.Users.Any(user =>
             user.NotifyAtUtc != null && (user.NotifyAtUtc < DateTime.UtcNow || user.NotifyAtUtc > evenTime));
         })
-        .WithMessage("Some notification time is not valid, notification time mustn't be earlier than now or later than date of the event");
+        .WithMessage("Some Event time is not valid, Event time mustn't be earlier than now or later than date of the event");
     });
   }
 }

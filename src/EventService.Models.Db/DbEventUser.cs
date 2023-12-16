@@ -10,14 +10,15 @@ public class DbEventUser
   public const string TableName = "EventsUsers";
 
   public Guid Id { get; set; }
-  public Guid EventId { get; set; }
-  public Guid UserId { get; set; }
-  public EventUserStatus Status { get; set; }
-  public DateTime? NotifyAtUtc { get; set; }
   public Guid CreatedBy { get; set; }
   public DateTime CreatedAtUtc { get; set; }
   public Guid? ModifiedBy { get; set; }
   public DateTime? ModifiedAtUtc { get; set; }
+
+  public Guid EventId { get; set; }
+  public Guid UserId { get; set; }
+  public EventUserStatus Status { get; set; }
+  public DateTime? NotifyAtUtc { get; set; }
 
   public DbEvent Event { get; set; }
 }

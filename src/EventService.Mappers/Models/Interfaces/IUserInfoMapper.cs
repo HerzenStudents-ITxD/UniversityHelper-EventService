@@ -3,7 +3,7 @@ using UniversityHelper.Models.Broker.Models.User;
 using UniversityHelper.EventService.Models.Dto.Models;
 using UniversityHelper.Core.Attributes;
 
-namespace UniversityHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interfaces;
 
 [AutoInject]
 public interface IUserInfoMapper

@@ -7,15 +7,12 @@ using UniversityHelper.Core.Attributes;
 using UniversityHelper.Models.Broker.Models.File;
 using UniversityHelper.Models.Broker.Models.Image;
 
-namespace UniversityHelper.EventService.Mappers.Models.Interface;
+namespace UniversityHelper.EventService.Mappers.Models.Interfaces;
 
 [AutoInject]
 public interface IEventResponseMapper
 {
   EventResponse Map(
     DbEvent dbEvent,
-    List<UserData> usersData,
-    List<ImageInfo> images,
-    List<FileCharacteristicsData> files,
-    List<CommentInfo> comments);
+    List<UserData> usersData);
 }

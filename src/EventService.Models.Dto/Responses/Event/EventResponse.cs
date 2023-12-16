@@ -16,9 +16,6 @@ public class EventResponse
   public FormatType Format { get; set; }
   public AccessType Access { get; set; }
   public DateTime CreatedAtUtc { get; set; }
-  public List<FileInfo> EventFiles { get; set; }
   public List<CategoryInfo> EventCategories { get; set; }
   public List<UserInfo> EventUsers { get; set; }
-  public List<ImageInfo> EventImages { get; set; }
-  public List<CommentInfo> EventComments { get; set; }
 }
